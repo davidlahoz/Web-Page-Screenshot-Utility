@@ -29,14 +29,13 @@ npm install -g puppeteer
 
 ## Info
 
-### `grab_all.ps1` (Windows) and `grab_all.sh` (Linux/MacOS)
+### `grab_all.*`
 
-The script `grab_all.*` is used to run the screenshot utility. It accepts input parameters to specify the input file containing URLs and the output option for filenames.
-By default it will use the urls listed in urls.txt
+These scripts facilitate the execution of the screenshot utility. They accept input parameters to specify the input file containing URLs and the output directory for saving screenshots. By default, the URLs listed in `urls.txt` are utilized.
 
-There are two versions of it, one in PWSH, to be executed on Windows and avoid the hassle of bash. And sh for MacOS and Linux devices.
-They are both the same.
-
+There are two versions that do the exact same thing but for different platforms.
+- `grab_all.ps1` to be used with Windows-based devices to avoid the hassle of enabling bash
+- `grab_all.sh` to be used with Linux/MacOS devices.
 
 ### `grab_url.js`
 
@@ -49,15 +48,25 @@ Here you will place the URLs that you want to take a full screenshot.
 ### `/output/`
 Screenshots will be saved there.
 
-## How to use
+## Usage
 
-Just place all the files in the desired folder. Edit the URLs you want to process in a bulk-mode to `urls.txt` and run the bash script with the following command:
+To utilize these scripts:
 
-```
-bash grab_all.sh
-```
+1. Place all files in the desired folder.
+2. Edit `urls.txt` to include the URLs you wish to process.
+3. Run the appropriate platform-specific script:
 
-The screenshots will be saved in `/output/` as PNG files.
+   - **Windows:**
+     ```
+     powershell .\grab_all.ps1
+     ```
+
+   - **Linux/MacOS:**
+     ```
+     bash grab_all.sh
+     ```
+
+   The screenshots will be saved in `/output/` as PNG files.
 
 ## License
 

@@ -25,14 +25,26 @@ You can install Puppeteer via npm using the following command:
 npm install -g puppeteer
 ```
 
-## Usage
+## Info
 
-### Bash Script (`.sh`)
+### `grab_all.sh`
 
 The bash script `grab_all.sh` is used to run the screenshot utility. It accepts input parameters to specify the input file containing URLs and the output option for filenames.
 By default it will use the urls listed in urls.txt
 
 
-### JavaScript Script (`.js`)
+### `grab_url.js`
 
 The JavaScript script `grab_url.js` utilizes Puppeteer to capture screenshots of web pages. It is invoked by the bash script with parameters passed from the command line.
+
+### `urls.txt`
+
+Here you will place the URLs that you want to take a full screenshot.
+
+## How to use
+
+Just place all the files in the desired folder. Edit the URLs you want to process in a bulk-mode to `urls.txt` and run the bash script with the following command:
+
+```
+bash grab_all.sh
+```

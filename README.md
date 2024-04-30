@@ -56,3 +56,7 @@ bash grab_all.sh
 ```
 
 The screenshots will be saved in `/output/` as PNG files.
+
+## License
+
+This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for details.

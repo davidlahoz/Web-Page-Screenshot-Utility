@@ -27,10 +27,13 @@ npm install -g puppeteer
 
 ## Info
 
-### `grab_all.sh`
+### `grab_all.ps1` (Windows) and `grab_all.sh` (Linux/MacOS)
 
-The bash script `grab_all.sh` is used to run the screenshot utility. It accepts input parameters to specify the input file containing URLs and the output option for filenames.
+The bash script `grab_all.*` is used to run the screenshot utility. It accepts input parameters to specify the input file containing URLs and the output option for filenames.
 By default it will use the urls listed in urls.txt
+
+There are two versions of it, one in PWSH, to be executed on Windows and avoid the hassle of bash. And sh for MacOS and Linux devices.
+They are both the same.
 
 
 ### `grab_url.js`
@@ -48,3 +51,5 @@ Just place all the files in the desired folder. Edit the URLs you want to proces
 ```
 bash grab_all.sh
 ```
+
+The screenshots will be saved in `/output/` as PNG files.

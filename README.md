@@ -44,6 +44,9 @@ The JavaScript script `grab_url.js` utilizes Puppeteer to capture screenshots of
 
 Here you will place the URLs that you want to take a full screenshot.
 
+### `/output/`
+Screenshots will be saved there.
+
 ## How to use
 
 Just place all the files in the desired folder. Edit the URLs you want to process in a bulk-mode to `urls.txt` and run the bash script with the following command:

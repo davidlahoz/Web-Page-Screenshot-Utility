@@ -71,7 +71,8 @@ To utilize these scripts:
 ## To Do's
 
 - [ ] Implement automatic acceptance of cookies warning message ![Progress](https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600)
-- [ ] Integrate an option for automatic user/password autofill for protected websites with basic authentication ![Progress](https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600)
+- [x] Integrate an option for automatic user/password autofill for protected websites with basic authentication ![Progress](https://geps.dev/progress/100?dangerColor=800000&warningColor=ff9900&successColor=006600)
+> **Workaround:** use https://admin:test@domain.com/ while adding URLs to `urls.txt`
 - [ ] Enhance prompt output for a more polished appearance ![Progress](https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 

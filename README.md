@@ -34,8 +34,8 @@ npm install -g puppeteer
 These scripts facilitate the execution of the screenshot utility. They accept input parameters to specify the input file containing URLs and the output directory for saving screenshots. By default, the URLs listed in `urls.txt` are utilized.
 
 There are two versions that do the exact same thing but for different platforms.
-- `grab_all.ps1` to be used with Windows-based devices to avoid the hassle of enabling bash
-- `grab_all.sh` to be used with Linux/MacOS devices.
+- **grab_all.ps1** to be used with Windows-based devices to avoid the hassle of enabling bash
+- **grab_all.sh** to be used with Linux/MacOS devices.
 
 ### `grab_url.js`
 

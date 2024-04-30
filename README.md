@@ -70,9 +70,10 @@ To utilize these scripts:
 
 ## To Do's
 
-- [ ] Implement automatic acceptance of cookies warning message - (https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600)
-- [ ] Integrate an option for automatic user/password autofill for protected websites using .htaccess - (https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600)
-- [ ] Enhance prompt output for a more polished appearance - (https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600)
+- [ ] Implement automatic acceptance of cookies warning message - ![Progress](https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600)
+- [ ] Integrate an option for automatic user/password autofill for protected websites using .htaccess - ![Progress](https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600)
+- [ ] Enhance prompt output for a more polished appearance - ![Progress](https://geps.dev/progress/1?dangerColor=800000&warningColor=ff9900&successColor=006600)
+
 
 ## License
 

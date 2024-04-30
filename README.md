@@ -1,6 +1,6 @@
 # Web Page Screenshot Utility
 
-This utility is designed to capture screenshots of complete web pages using Puppeteer and a bash script to automate the process. It allows you to specify input URLs and choose between saving the screenshots with either the title or the URL as the filename.
+This utility is designed to capture screenshots of complete web pages using Puppeteer and a bash/powershell script to automate the process. It allows you to specify input URLs and choose between saving the screenshots with either the title or the URL as the filename.
 
 ## Features
 

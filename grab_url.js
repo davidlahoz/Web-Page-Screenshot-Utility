@@ -77,7 +77,7 @@ const filenameOption = args[2] || 'title'; // filenameOption will be 'title' if 
 
   try {
     await page.screenshot({
-      path: filename,
+      path: `output/${filename}`, // Modified path to save in the "output" folder
       fullPage: true
     });
   } catch (error) {

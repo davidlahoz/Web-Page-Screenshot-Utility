@@ -1,5 +1,7 @@
 # Web Page Screenshot Utility
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This utility is designed to capture screenshots of complete web pages using Puppeteer and a bash/powershell script to automate the process. It allows you to specify input URLs and choose between saving the screenshots with either the title or the URL as the filename.
 
 ## Features
